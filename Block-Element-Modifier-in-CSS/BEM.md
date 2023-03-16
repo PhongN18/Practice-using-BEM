@@ -3,9 +3,9 @@
 
 ## Ý nghĩa
 - Block Element Modifier
-- Block: Khối
-- Element: Thành phần trong khối
-- Modifier: Bổ sung ý nghĩa cho 'Block' hoặc 'Element'
+- `Block`: Khối
+- `Element`: Thành phần trong khối
+- `Modifier`: Bổ sung ý nghĩa cho `Block` hoặc `Element`
 
 ## Why BEM
 - Nhiều members mỗi người đặt một kiểu
@@ -35,3 +35,7 @@
 ## Khi nào sử dụng BEM cho PHÙ HỢP?
 - Dự án có nhiều members
 - Dự án lớn, số lượng pages/elements có nhiều
+
+## Đặt tên các block lồng nhau
+- Nếu là block con dùng chung: dùng class ngoài/class chung, ko dùng theo block
+- Nếu là block con có nhiều element: coi như là 1 block mới, đặt tên các element theo cú pháp bình thường
